@@ -3,24 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My First HTML Page</title>
+    <title>My Tweets</title>
   </head>
- <body>
-  <h1>My Tweets</h1>
+  <body>
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+      </ul>
+    </header>
 
-  <!-- Embedded tweet -->
-  <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">
-      Just finished my first HTML project with ALX! <br>
-      Excited to build more web pages and learn more every day! 
-    </p>
-    &mdash; Bezawit Abera (@beza_q)
-    <a href="https://twitter.com/Interior/status/463440424141459456">May 5, 2014</a>
-  </blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <main>
+      <article>
+        <h1>My Tweets</h1>
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">Just finished my first HTML project with ALX! 🎉💻<br>Excited to build more web pages and learn more every day! 🚀</p>
+          &mdash; Bezawit Abera (@beza_q)
+          <a href="https://twitter.com/Interior/status/463440424141459456">May 5, 2014</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <p><a href="index.html">← Back to Homepage</a></p>
+      </article>
 
-  <!-- Link back to homepage -->
-  <p><a href="index.html">← Back to Homepage</a></p>
-</body>
+      <aside>
+        <p>placeholder to add comment thread later</p>
+      </aside>
+    </main>
 
+    <footer>
+      <p>Made by Bezawit Abera - <a href="https://github.com/beza-q" target="_blank">here</a></p>
+    </footer>
+  </body>
 </html>
